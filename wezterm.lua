@@ -19,4 +19,12 @@ config.window_padding = {
 	bottom = 0,
 }
 
+-- local wsl_dom = require("wsl_default_dir")
+--
+-- config.wsl_domains = wsl_dom
+-- config.keys = {
+-- 	{ key = "L", mods = "CTRL", action = wezterm.action.ShowDebugOverlay },
+-- }
+-- wezterm.log_info(wsl_dom)
+
 return config
